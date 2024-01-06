@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "04be3a57-ef76-41a2-8241-b6d204d62de7",
+		"name": "multi module project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18081090"
+	},
+	"item": [
+		{
+			"name": "save user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"tom\",\r\n    \"email\": \"tom@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
